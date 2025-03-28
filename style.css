@@ -1,0 +1,63 @@
+*{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    
+    height: 10vh;
+}
+
+#banner {
+    height: 90vh;
+}
+
+#banner .ngee{
+    background: url('img/sunset.jpg') center/cover no-repeat;
+    height: 75vh;
+    position: relative;
+    width: 45%;
+    margin-left: 10px;
+}
+#banner .meow {
+    padding: 100px;
+}
+
+.btn-primary {
+    background-color: black;
+    border: black;
+    border-radius: 0;
+    padding: 12px 34px;
+    font-size: 20px;
+}
+#banner h5 {
+text-transform: uppercase;
+color: black;
+}
+
+#banner h1  {
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: bold;
+    color: #f39b48; /* Pink color */
+    text-shadow: 3px 3px 8px rgba(248, 145, 217, 0.7); /* Stronger shadow for readability */
+
+}
+#about h4 {
+    color: black;
+}
+
+
+#about {
+    padding: 100px;
+    background-color: rgb(236, 142, 87);
+}
+
+#services {
+    padding: 100px;
+
+}
+
+.card-image-top{
+    border: 2px solid black;
+}
