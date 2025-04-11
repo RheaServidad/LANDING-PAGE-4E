@@ -44,13 +44,12 @@ color: black;
 
 }
 #about h4 {
-    color: black;
+    color: rgb(7, 7, 7);
 }
 
 
 #about {
     padding: 100px;
-    background-color: rgb(236, 142, 87);
 }
 
 #services {
@@ -61,3 +60,126 @@ color: black;
 .card-image-top{
     border: 2px solid black;
 }
+
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(57, 149, 57);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(57, 149, 57);
+    color: #FFF;
+}
+.accordion-button:hover {
+    background-color: rgb(57, 149, 57) ;
+    color: #FFF;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #41482B;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #DDB365 ;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(241, 164, 91);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(247, 151, 73);
+    color: #070707;
+}
+.accordion-button:hover {
+    background-color: rgb(235, 173, 92) ;
+    color: #FFF;
+}
+
+.testimonials{
+    border: 3px solid #48372b;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.testimonials img {
+    border-radius: 50%; 
+    width : 75px;
+
+}
+
+#reviews img {
+    object-fit: cover;
+    border: 3px solid #0d6efd;
+  }
+  
+  #reviews .card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  
